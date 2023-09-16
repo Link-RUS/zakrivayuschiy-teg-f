@@ -12,6 +12,8 @@
     --background-gradient-two: #007f0c, #004306;
     --bg-color: #000;
     --button-hover-color: #00CC14;
+    --font-wdht: 465;
+    --font-wdht-b: 785;
   }
 }
 
@@ -21,6 +23,8 @@
   --background-gradient-two: #007f0c, #004306;
   --bg-color: #000;
   --button-hover-color: #00CC14;
+  --font-wdht: 465;
+  --font-wdht-b: 785;
 }
 
 :root.theme-light {
@@ -29,4 +33,6 @@
   --background-gradient-two: #e7e7e7, #1a1a1a;
   --bg-color: #fff;
   --button-hover-color: #fff;
+  --font-wdht: 400;
+  --font-wdht-b: 700;
 }
