@@ -7,6 +7,6 @@
   --button-hover-color: #fff;
   --heart-color: #f00;
   --label-shadow: var(--bg-color);
-  --font-wdht: 400;
-  --font-wdht-b: 700;
+  --font-wdht: "wght" 400;
+  --font-wdht-b: "wght" 700;
 }

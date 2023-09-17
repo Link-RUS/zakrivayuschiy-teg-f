@@ -41,6 +41,7 @@
       transparent 4px
     ),
     linear-gradient(var(--background-gradient-two));
+    background-attachment: fixed;
   width: clamp(375px, 100%, 700px);
   margin: auto;
 }
@@ -53,8 +54,7 @@
   color: var(--themes-main-color, #000);
   font-family: PressStart2P;
   font-size: 65px;
-  font-style: normal;
-  font-weight: var(--font-wdht);
+  font-variation-settings: var(--font-wdht);
   line-height: normal;
   background-color: var(--bg-color);
   margin-block: 100px;
@@ -139,8 +139,7 @@
   color: var(--themes-main-color, #000);
   font-family: Inter;
   font-size: 18px;
-  font-style: normal;
-  font-weight: var(--font-wdht-b);
+  font-variation-settings: var(--font-wdht-b);
   line-height: normal;
 }
 
@@ -154,8 +153,7 @@
   color: var(--themes-main-color, #000);
   font-family: PressStart2P;
   font-size: 14px;
-  font-style: normal;
-  font-weight: var(--font-wdht);
+  font-variation-settings: var(--font-wdht);
   line-height: normal;
   opacity: 0.5;
   mix-blend-mode: hard-light;
@@ -214,8 +212,7 @@
   margin: 25px 25px 0 25px;
   font-family: Inter;
   font-size: 18px;
-  font-style: normal;
-  font-weight: var(--font-wdht);
+  font-variation-settings: var(--font-wdht);
   line-height: 21px; /* 116.667% */
 }
 .card__button-section {
@@ -231,8 +228,7 @@
   color: var(--themes-main-color, #000);
   font-family: PressStart2P;
   font-size: 14px;
-  font-style: normal;
-  font-weight: var(--font-wdht);
+  font-variation-settings: var(--font-wdht);
   line-height: 90%; /* 12.6px */
   background: var(--bg-color, #fff);
   border: 2px solid var(--themes-main-color, #000);
@@ -322,8 +318,7 @@
   color: var(--themes-main-color, #000);
   font-family: PressStart2P;
   font-size: 14px;
-  font-style: normal;
-  font-weight: var(--font-wdht);
+  font-variation-settings: var(--font-wdht);
   line-height: 150%; /* 21px */
   text-transform: uppercase;
 }
