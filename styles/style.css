@@ -16,7 +16,8 @@
 
 .theme-menu__button:focus,
 .button:focus,
-.card__icon-button:focus {
+.card__icon-button:focus,
+.title:focus {
   outline: none;
 }
 
