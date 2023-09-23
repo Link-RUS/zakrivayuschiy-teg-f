@@ -23,7 +23,7 @@
 .theme-menu__button,
 .button,
 .card__icon-button {
-  cursor: poInter, sans-serif;
+  cursor: pointer;
 }
 
 .page {
@@ -59,7 +59,7 @@
   flex-direction: column;
   align-items: center;
   color: var(--themes-main-color, #000);
-  font-family: PressStart2P, "Comic Sans MS", fantasy;
+  font-family: PressStart2P, fantasy;
   font-size: 65px;
   font-variation-settings: var(--font-wdht);
   line-height: normal;
@@ -72,6 +72,7 @@
   font-size: clamp(3.0625rem, 1.8943rem + 4.9844vw, 4.0625rem);
   margin-top: 136px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 @media (width <= 375px) {
@@ -167,7 +168,7 @@
 
 .label {
   color: var(--themes-main-color, #000);
-  font-family: PressStart2P, "Comic Sans MS", fantasy;
+  font-family: PressStart2P, fantasy;
   font-size: 14px;
   font-variation-settings: var(--font-wdht);
   line-height: normal;
@@ -248,7 +249,7 @@
 .button {
   position: relative;
   color: var(--themes-main-color, #000);
-  font-family: PressStart2P, "Comic Sans MS", fantasy;
+  font-family: PressStart2P, fantasy;
   font-size: 14px;
   font-variation-settings: var(--font-wdht);
   line-height: 90%; /* 12.6px */
@@ -337,7 +338,7 @@
 
 .dialog-description-text {
   color: var(--themes-main-color, #000);
-  font-family: PressStart2P, "Comic Sans MS", fantasy;
+  font-family: PressStart2P, fantasy;
   font-size: 14px;
   font-variation-settings: var(--font-wdht);
   line-height: 150%; /* 21px */
