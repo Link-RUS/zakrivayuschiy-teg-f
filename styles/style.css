@@ -61,7 +61,6 @@
   color: var(--themes-main-color, #000);
   font-family: PressStart2P, fantasy;
   font-size: 65px;
-  font-variation-settings: var(--font-wdht);
   line-height: normal;
   background-color: var(--bg-color);
   margin-block: 100px;
@@ -170,7 +169,6 @@
   color: var(--themes-main-color, #000);
   font-family: PressStart2P, fantasy;
   font-size: 14px;
-  font-variation-settings: var(--font-wdht);
   line-height: normal;
   opacity: 0.5;
   mix-blend-mode: hard-light;
@@ -340,7 +338,6 @@
   color: var(--themes-main-color, #000);
   font-family: PressStart2P, fantasy;
   font-size: 14px;
-  font-variation-settings: var(--font-wdht);
   line-height: 150%; /* 21px */
   text-transform: uppercase;
 }
